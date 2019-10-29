@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 14px Helvetica;
+  margin: 0;
+}

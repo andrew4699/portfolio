@@ -1,0 +1,32 @@
+.sidebar {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.sections {
+
+}
+
+.indicator {
+  margin: 8px 0;
+}
+
+.external {
+  display: inline-block;
+  margin-top: auto;
+  margin-right: auto;
+}
+
+.icon {
+  margin-bottom: 12px;
+}
+
+.decoration {
+  background: gray;
+  width: 1px;
+  height: 100px;
+  margin: 0 auto;
+}

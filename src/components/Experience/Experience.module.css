@@ -1,0 +1,20 @@
+.section {
+  display: flex;
+  align-items: top;
+}
+
+.name {
+  flex: 1;
+  text-align: right;
+  color: gray;
+  margin-right: 32px;
+}
+
+.projects {
+  flex: 3;
+}
+
+.project {
+  display: block;
+  margin-bottom: 12px;
+}
