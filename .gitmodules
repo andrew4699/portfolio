@@ -1,0 +1,3 @@
+[submodule "php/Audis"]
+	path = php/Audis
+	url = https://github.com/andrew4699/Audis

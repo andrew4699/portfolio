@@ -1,0 +1,27 @@
+version: '3.5'
+
+services:
+  web:
+    image: portfolio/php
+    container_name: portfolio-php
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    # network_mode: host
+    volumes:
+      - ./php:/var/www/html/
+    ports:
+      - 3007:80
+
+  # web:
+  #   image: calsync/web
+  #   container_name: calsync-web
+  #   build: ./src/web
+  #   network_mode: host
+  #   depends_on:
+  #     - php
+  #   volumes:
+  #     - ./src/web:/opt/
+  #   ports:
+  #     - 3000:3000
+  #   command: bash -c "cp -r /usr/local/node_modules_install_dir/node_modules/. /opt/node_modules/ && npm start"
